@@ -110,6 +110,8 @@ tb   = ca+r*d-T;
 A    = Abar;
 end;
 
+@#include "shocks.mod"
+
 // simulate model deterministically
 options_.debug=1;
 simul(periods=1000); 
