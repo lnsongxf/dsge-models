@@ -1,6 +1,6 @@
 {
 	"iz" : {
-		"desc" : "public investment (percentage of GDP)",
+		"desc" : "public investment (% of GDP)",
 		"equations" : [27]
 	},
 	"d" : {
