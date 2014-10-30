@@ -1,4 +1,4 @@
-iz	public investment (percentage of GDP)	27
+iz	public investment (% of GDP)	27
 d	public concessional debt (% of GDP)	30
 dc	public commercial debt (% of GDP)	30
 b	public domestic debt (% of GDP)	30
