@@ -39,7 +39,7 @@ $(function() {
        <td>name</td>
        <td><input type="text" id="name-pbox" value="val"></td>
        <td>desc</td>
-       </tr> comment
+       </tr>
        to be inserted into a table of parameters */ 
     var makeTableElement = function(name, val, desc, latex) {
 	var htmlString = "<tr><td>";
