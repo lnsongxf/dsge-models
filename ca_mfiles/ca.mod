@@ -19,7 +19,7 @@ end;
 model;
 
 // 0. technology (A)
-A = Abar + e_Abar0 + e_Abar1 + e_Abar2 - e_Abar0_neg - e_Abar1_neg - e_Abar2_neg;
+A = Abar *(1+ e_Abar0 + e_Abar1 + e_Abar2 - e_Abar0_neg - e_Abar1_neg - e_Abar2_neg);
 
 // 1. FOC to d(t)
 0 = (c^(-gamma)-beta*(1+g)*xi*c(+1)^(-gamma)) - beta*(c(+1)^(-gamma)-beta*(1+g)*xi*c(+2)^(-gamma))*(1+r+d*(psi/(rho1^2))*(rho1*exp(rho1*(d-dbar-omega*vv))-rho2)); 
