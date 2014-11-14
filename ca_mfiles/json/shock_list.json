@@ -1,14 +1,14 @@
 {
 	"yoil" : {
-		"desc" : "oil production shock (percent of GDP)",
+		"desc" : "oil production shock (share of GDP, for example 0.01 means 1% of GDP)",
 		"equations" : [1]
 	},
 	"T" : {
-		"desc" : "transfers shock (percent of GDP) ",
+		"desc" : "transfers shock (share of GDP, for example 0.01 means 1% of GDP) ",
 		"equations" : [1]
 	},
 	"Abar" : {
-		"desc" : "technology shock (percent change)",
+		"desc" : "technology shock (percentage change, for example 0.01 means 1% deviation)",
 		"equations" : [1]
 	}
 }
