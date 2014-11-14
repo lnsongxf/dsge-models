@@ -10,7 +10,7 @@ set_params;
 set_params_imp;
 
 # run model
-itermax = 20;
+itermax = 30;
 dynare ca.mod noclearall;
 
 # save plot vars
