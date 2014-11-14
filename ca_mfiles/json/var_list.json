@@ -5,6 +5,7 @@
 	"s" : "public capital [    percent of GDP]",
 	"f" : "foreign assets [    percent of GDP]",
 	"ynon" : "non-oil output [    percent of GDP]",
+        "yoil" : "oil output [    percent of GDP]",
 	"invk" : "private investment   [    percent of GDP]",
 	"invs" : "public investment    [    percent of GDP]",
 	"r" : "interest rate [    percent]",
