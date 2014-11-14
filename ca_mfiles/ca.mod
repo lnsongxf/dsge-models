@@ -84,7 +84,7 @@ T = T_0 + y * (e_T0 + e_T1 + e_T2 - e_T0_neg - e_T1_neg - e_T2_neg);
 end;  
 
 // steady state (analytical solved)
-options_.simul.maxit = 30;
+options_.simul.maxit = itermax;
 
 initval;
 s    = s_0;
