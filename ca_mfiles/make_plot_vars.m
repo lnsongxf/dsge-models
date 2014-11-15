@@ -1,17 +1,17 @@
 plot_vars = struct();
 
 plot_vars.y = y;
-plot_vars.ch = ch./y;
-plot_vars.k = k./y;
-plot_vars.s = s./y;
-plot_vars.f = f./y;
-plot_vars.ynon = ynon./y;
-plot_vars.yoil = yoil./y;
-plot_vars.invk = invk./y;
-plot_vars.invs = invs./y;
-plot_vars.r = r;
-plot_vars.tb = tb./y;
-plot_vars.ca = ca./y;
-plot_vars.govh = govh./y;
+plot_vars.ch = ch./y*100;
+plot_vars.k = k./y*100;
+plot_vars.s = s./y*100;
+plot_vars.f = f./y*100;
+plot_vars.ynon = ynon./y*100;
+plot_vars.yoil = yoil./y*100;
+plot_vars.invk = invk./y*100;
+plot_vars.invs = invs./y*100;
+plot_vars.r = r*100;
+plot_vars.tb = tb./y*100;
+plot_vars.ca = ca./y*100;
+plot_vars.govh = govh./y*100;
 
 save plot_vars.mat plot_vars
