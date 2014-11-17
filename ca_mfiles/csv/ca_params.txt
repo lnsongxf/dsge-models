@@ -15,5 +15,5 @@ rho2	\\rho_{2}	0	additional parameter on risk-premium	6	Regression coeffieicent 
 psi	\\psi	0.13	between 0 and 1	6	Regression coeffieicent from the paper; also van der Ploeg (2012)
 yoilvalue	yoil_{ss}	0	steady state oil income	8	oil GDP as % of GDP (long-run average)
 omega	\\omega	0	leverage coefficient on oil reserves	6	leverage coefficient on oil reserves
-cost_k0	cosk_{k0}	0.4	cost overrun ratio of private investments	5	as in the paper; for CEMAC application
+cost_k0	cost_{k0}	0.4	cost overrun ratio of private investments	5	as in the paper; for CEMAC application
 cost_s0	cost_{s0}	0.4	cost overrun ratio of public investments	5	as in the paper; for CEMAC application

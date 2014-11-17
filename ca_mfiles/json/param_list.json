@@ -119,7 +119,7 @@
 		"equations": [6]
 	},
 	"cost_k0": {
-		"latex": "cosk_{k0}",
+		"latex": "cost_{k0}",
 		"val": "0.4",
 		"desc": "cost overrun ratio of private investments",
 		"note": "as in the paper; for CEMAC application",
