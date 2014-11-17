@@ -1,4 +1,4 @@
-theta_k	\\theta_{k}	0.5	ratio of private capital 	2	share of private gross fixed CF (assume total private and public CF=0.65=theta_k+theta_s)
+theta_k	\\theta_{k}	0.55	ratio of private capital 	2	share of private gross fixed CF (assume total private and public CF=0.65=theta_k+theta_s)
 theta_s	\\theta_{s}	0.14	ratio of public capital 	2	share of public gross fixed CF (assume total private and public CF=0.65=theta_k+theta_s)
 gamma	\\gamma	1.33	risk aversion rate	1	"van der Ploeg (2012), no need to change"
 delta_k	\\delta_{k}	0.055	depreciation rate of private capital	4	"van der Ploeg (2012), no need to change"
