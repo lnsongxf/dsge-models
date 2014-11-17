@@ -15,7 +15,7 @@
 	},
 	"gamma": {
 		"latex": "\\gamma",
-		"val": "1.33",
+		"val": "2.94",
 		"desc": "risk aversion rate",
 		"note": "van der Ploeg (2012), no need to change",
 		"equations": [1]
