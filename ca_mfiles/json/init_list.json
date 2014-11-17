@@ -21,7 +21,7 @@
 		"equations": [8]
 	},
 	"gov_inv_0": {
-		"latex": "gov\_inv_{0}",
+		"latex": "gov-inv_{0}",
 		"val": "0.109",
 		"desc": "public investment in % of GDP in year 0",
 		"note": "gov gross fixed CF as % of GDP in year 0",
@@ -63,7 +63,7 @@
 		"equations": [3]
 	},
 	"gov_exp_0": {
-		"latex": "gov\_exp_{0}",
+		"latex": "gov-exp_{0}",
 		"val": "0.383",
 		"desc": "gov total expenditure in % of GDP",
 		"note": "total public expediture as % of GDP in year 0",
