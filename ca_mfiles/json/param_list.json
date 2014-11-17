@@ -1,14 +1,14 @@
 {
 	"theta_k": {
 		"latex": "\\theta_{k}",
-		"val": "0.5",
+		"val": "0.4",
 		"desc": "ratio of private capital",
 		"note": "share of private gross fixed CF (assume total private and public CF=0.65=theta_k+theta_s)",
 		"equations": [2]
 	},
 	"theta_s": {
 		"latex": "\\theta_{s}",
-		"val": "0.14",
+		"val": "0.25",
 		"desc": "ratio of public capital",
 		"note": "share of public gross fixed CF (assume total private and public CF=0.65=theta_k+theta_s)",
 		"equations": [2]
@@ -43,35 +43,35 @@
 	},
 	"g_n": {
 		"latex": "g_{n}",
-		"val": "0.016",
+		"val": "0.024",
 		"desc": "population growth rate",
 		"note": "average population growth (e.g. for the latest five years)",
 		"equations": [2]
 	},
 	"g_a": {
 		"latex": "g_{a}",
-		"val": "0.021",
+		"val": "0.014",
 		"desc": "technology growth rate",
 		"note": "long-term growth rate minus population growth",
 		"equations": [2]
 	},
 	"e_k": {
 		"latex": "e_{k}",
-		"val": "0.4",
+		"val": "0.5",
 		"desc": "efficiency of private capital",
 		"note": "Hulten (1996) and Pritchett (2000)",
 		"equations": [3]
 	},
 	"e_s": {
 		"latex": "e_{s}",
-		"val": "0.4",
+		"val": "0.5",
 		"desc": "efficiency of public capital",
 		"note": "Hulten (1996) and Pritchett (2000)",
 		"equations": [3]
 	},
 	"dbar": {
 		"latex": "\\bar{d}",
-		"val": "0",
+		"val": "0.128",
 		"desc": "steady state debt",
 		"note": "gross external debt (long-run average)",
 		"equations": [6]
@@ -85,7 +85,7 @@
 	},
 	"rho1": {
 		"latex": "\\rho_{1}",
-		"val": "1.89",
+		"val": "0.93",
 		"desc": "interest rate-debt elasticity",
 		"note": "Regression coeffieicent from the paper; also van der Ploeg (2012)",
 		"equations": [6]
@@ -120,14 +120,14 @@
 	},
 	"cost_k0": {
 		"latex": "cost_{k0}",
-		"val": "0.4",
+		"val": "0.25",
 		"desc": "cost overrun ratio of private investments",
 		"note": "as in the paper; for CEMAC application",
 		"equations": [5]
 	},
 	"cost_s0": {
 		"latex": "cost_{s0}",
-		"val": "0.4",
+		"val": "0.25",
 		"desc": "cost overrun ratio of public investments",
 		"note": "as in the paper; for CEMAC application",
 		"equations": [5]
