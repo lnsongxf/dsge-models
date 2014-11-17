@@ -1,4 +1,4 @@
-theta_k = 0.5;
+theta_k = 0.55;
 theta_s = 0.14;
 gamma = 1.33;
 delta_k = 0.055;
