@@ -1,7 +1,7 @@
 {
 	"theta_k": {
 		"latex": "\\theta_{k}",
-		"val": "0.55",
+		"val": "0.5",
 		"desc": "ratio of private capital",
 		"note": "share of private gross fixed CF (assume total private and public CF=0.65=theta_k+theta_s)",
 		"equations": [2]
