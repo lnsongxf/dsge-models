@@ -4,7 +4,7 @@ var express      = require('express');
 var childProcess = require('child_process');
 var fs           = require('fs');
 var bodyParser   = require('body-parser');
-var ipfilter      = require(__dirname + '/ipfilter.js');
+//var ipfilter      = require(__dirname + '/ipfilter.js');
 var modWriter    = require(__dirname + '/mod-writer.js');
 var app          = express();
 var http         = require('http').Server(app);
@@ -12,7 +12,7 @@ var io           = require('socket.io')(http);
 var nodemailer   = require('nodemailer');
 
 // whitelist my IP address
-var ip_white = ['206.229.236.122', // IMF 'guest' network
+/*var ip_white = ['206.229.236.122', // IMF 'guest' network
   '134.113..'];  // IMF LAN
 app.use(ipfilter(ip_white, {
     log: true,
@@ -20,12 +20,12 @@ app.use(ipfilter(ip_white, {
     mode: 'allow',
     errorMessage: 'IMF staff only, or \'THOU SHALL NOT PASS\''
 }));
-
+*/
 app.use(bodyParser.json());
 app.use(express.static(__dirname + '/public'));
 //Hope
-app.use(express.static(__dirname + '/dsf_mfiles'));
-app.use(express.static(__dirname + '/nk_mfiles'));
+/*app.use(express.static(__dirname + '/dsf_mfiles'));
+app.use(express.static(__dirname + '/ca_mfiles'));
 
 app.set('port', (process.env.PORT || 8080));
 buf = fs.readFileSync('index.html');
@@ -33,7 +33,7 @@ app.get('/', function(req, res) {
     res.send(buf.toString());
 });
 //Hope
-
+*/
 
 app.get('/', function(req, res){
   res.sendfile('index.html');
