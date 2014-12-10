@@ -4,11 +4,22 @@ var express      = require('express');
 var childProcess = require('child_process');
 var fs           = require('fs');
 var bodyParser   = require('body-parser');
+var ipfilter      = require(__dirname + '/ipfilter.js');
 var modWriter    = require(__dirname + '/mod-writer.js');
 var app          = express();
 var http         = require('http').Server(app);
 var io           = require('socket.io')(http);
 var nodemailer   = require('nodemailer');
+
+// whitelist my IP address
+var ip_white = ['206.229.236.122', // IMF 'guest' network
+  '134.113..'];  // IMF LAN
+app.use(ipfilter(ip_white, {
+    log: true,
+    range: true,
+    mode: 'allow',
+    errorMessage: 'IMF staff only, or \'THOU SHALL NOT PASS\''
+}));
 
 app.use(bodyParser.json());
 app.use(express.static(__dirname + '/public'));
