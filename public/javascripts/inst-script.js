@@ -12,7 +12,7 @@ $(function() {
 
 var main = function() {
     var text = '';
-    text += '<p>With this application, you can use the model developed at the IMF Research Department to run country-specific policy simulations. The basic steps to run a simulation are:</p>';
+    text += '<p>With this application, you can use the model developed at the IMF Research Department in collaboration with the Strategy, Policy, and Review Department to run country-specific policy simulations. The basic steps to run a simulation are:</p>';
     text += '<ol>';
     text += '<li> Calibrate the deep parameters of the model. The default setting is for an average low-income country. You can use this as a starting point and add any country-specific parameters as appropriate.';
     text += '<li> Set the initial conditions for the simulation. Data from the latest IMF Debt Sustainability Analysis is often a good starting point for this step.';
