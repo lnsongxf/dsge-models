@@ -155,8 +155,8 @@ iz*uaz = (delta_z+g)*zo + (e_iz0 + e_iz1 + e_iz2 - e_iz0_neg - e_iz1_neg - e_iz2
 // set exogenous path of grants and oil revenues
 grants*uazuaz = grantso + e_grants0 + e_grants1 + e_grants2 - e_grants0_neg - e_grants1_neg - e_grants2_neg;
 oilr*uazuaz = oilro + e_oilr0 + e_oilr1 + e_oilr2 - e_oilr0_neg - e_oilr1_neg - e_oilr2_neg;
-//remit*uazuaz = remito + e_remit0 + e_remit1 + e_remit2 - e_remit0_neg - e_remit1_neg - e_remit2_neg;
-remit= remito + e_remit0 + e_remit1 + e_remit2 - e_remit0_neg - e_remit1_neg - e_remit2_neg;
+remit*uazuaz = remito + e_remit0 + e_remit1 + e_remit2 - e_remit0_neg - e_remit1_neg - e_remit2_neg;
+//remit= remito + e_remit0 + e_remit1 + e_remit2 - e_remit0_neg - e_remit1_neg - e_remit2_neg;
 
 // define interest repayment on concessional debt (i.e. no repayment shocks)
 r_d = 0;
