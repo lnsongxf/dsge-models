@@ -47,6 +47,9 @@ plot_vars.h      = 100 * h;
 plot_vars.r      = 100 * r;
 plot_vars.rstar  = 100 * rstar;
 plot_vars.r_dc   = 100 * r_dc;
+plot_vars.rn  = 100 * rn
+plot_vars.Rz  = 100 * Rz;
+plot_vars.rx  = 100 * rx;
 
 # batch 4 = percent change from initial level
 plot_vars.c   = 100 * (c - c(1)) / c(1);
@@ -56,17 +59,17 @@ plot_vars.kn  = 100 * (kn - kn(1)) / kn(1);
 plot_vars.in  = 100 * (in - in(1)) / in(1);
 plot_vars.L_n = 100 * (L_n - L_n(1)) / L_n(1);
 plot_vars.qn  = 100 * (qn - qn(1)) / qn(1);
-plot_vars.rn  = 100 * (rn - rn(1)) / rn(1);
+#plot_vars.rn  = 100 * (rn - rn(1)) / rn(1);
 plot_vars.ixn = 100 * (ixn - ixn(1)) / ixn(1);
 plot_vars.z   = 100 * (z - z(1)) / z(1);
 plot_vars.rer = 100 * (rer - rer(1)) / rer(1);
 plot_vars.wr  = 100 * (wr - wr(1)) / wr(1);
-plot_vars.Rz  = 100 * (Rz - Rz(1)) / Rz(1);
+#plot_vars.Rz  = 100 * (Rz - Rz(1)) / Rz(1);
 plot_vars.kx  = 100 * (kx - kx(1)) / kx(1);
 plot_vars.ix  = 100 * (ix - ix(1)) / ix(1);
 plot_vars.L_x = 100 * (L_x - L_x(1)) / L_x(1);
 plot_vars.qx  = 100 * (qx - qx(1)) / qx(1);
-plot_vars.rx  = 100 * (rx - rx(1)) / rx(1);
+#plot_vars.rx  = 100 * (rx - rx(1)) / rx(1);
 
 # save
 save plot_vars.mat plot_vars;
