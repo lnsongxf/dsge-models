@@ -31,9 +31,9 @@ plot_vars.totaldebt = 100 * (p.*b + d + dc) ./ ynom;
 
 # batch 2 = index (make all indices set to 100)
 plot_vars.p     = 100 * p;
-plot_vars.pk    = 100 * pk;
+plot_vars.pk    = 50 * pk; #These are in steady state 2
 plot_vars.pn    = 100 * pn;
-plot_vars.pz    = 100 * pz;
+plot_vars.pz    = 50 * pz; #Same as pk
 plot_vars.px    = 100 * px;
 plot_vars.pm    = 100 * pm;
 plot_vars.pmm   = 100 * pmm;
