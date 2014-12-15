@@ -8,7 +8,7 @@ kn	non-tradable sector capital	percent change
 in	non-tradable sector investment	percent change
 L_n	non-tradable sector labor	percent change
 qn	non-tradable sector output	percent change
-rn	non-tradable sector return on capital	percent change
+rn	non-tradable sector return on capital	percent
 oilr	oil revenue	percent of GDP
 pm	price of imported goods	index
 pmm	price of imported machines	index
@@ -18,7 +18,7 @@ pz	price of public capital	index
 px	price of tradable goods	index
 pfd	primary fiscal deficit	percent of GDP
 bstar	private commercial debt	percent of GDP
-c	private consumption	percent of GDP
+c	private consumption	percent change
 ixn	private investment	percent change
 z	public capital	percent change
 dc	public commercial debt	percent of GDP
@@ -31,7 +31,7 @@ r	real interest rate on domestic debt	percent
 rstar	real interest rate on private commercial debt	percent
 r_dc	real interest rate on public commercial debt	percent
 wr	real wage	percent change
-Rz	return on public investment	percent change
+Rz	return on public investment	percent
 tot	terms of trade	index
 totmm	terms of trade (imported machines)	index
 totaldebt	total public debt	percent of GDP
@@ -39,5 +39,5 @@ kx	tradable sector capital	percent change
 ix	tradable sector investment	percent change
 L_x	tradable sector labor	percent change
 qx	tradable sector output	percent change
-rx	tradable sector return on capital	percent change
+rx	tradable sector return on capital	percent
 h	VAT rate	percent
