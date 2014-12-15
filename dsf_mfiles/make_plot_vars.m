@@ -47,7 +47,7 @@ plot_vars.h      = 100 * h;
 plot_vars.r      = 100 * r;
 plot_vars.rstar  = 100 * rstar;
 plot_vars.r_dc   = 100 * r_dc;
-plot_vars.rn  = 100 * rn
+plot_vars.rn  = 100 * rn;
 plot_vars.Rz  = 100 * Rz;
 plot_vars.rx  = 100 * rx;
 
