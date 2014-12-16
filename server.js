@@ -5,6 +5,7 @@ var childProcess = require('child_process');
 var fs           = require('fs');
 var bodyParser   = require('body-parser');
 //var ipfilter      = require(__dirname + '/ipfilter.js');
+var ipfilter     = require('ipfilter');
 var modWriter    = require(__dirname + '/mod-writer.js');
 var app          = express();
 var http         = require('http').Server(app);
@@ -12,15 +13,15 @@ var io           = require('socket.io')(http);
 var nodemailer   = require('nodemailer');
 
 // whitelist my IP address
-/*var ip_white = ['206.229.236.122', // IMF 'guest' network
-  '134.113..'];  // IMF LAN
+var ip_white = ['206.229.236.122', // IMF 'guest' network
+  '127.0.0.1'];  // IMF LAN
 app.use(ipfilter(ip_white, {
     log: true,
     range: true,
     mode: 'allow',
     errorMessage: 'IMF staff only, or \'THOU SHALL NOT PASS\''
 }));
-*/
+
 app.use(bodyParser.json());
 app.use(express.static(__dirname + '/public'));
 //Hope
@@ -245,6 +246,6 @@ app.get('/getResults', function(req, res) {
 });
 
 
-http.listen(process.env.PORT || 8080, function(){
+http.listen(process.env.PORT || 3000, function(){
     console.log('listening on port 8080');
 });
