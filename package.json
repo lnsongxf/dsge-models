@@ -25,6 +25,7 @@
     "express": "~4.6.1",
     "body-parser": "~1.5.0",
     "nodemailer": "~1.1.1",
-    "ipfilter": "0.0.4"
+    "ipfilter": "0.0.4",
+    "underscore": "~1.7.0"
   }
 }

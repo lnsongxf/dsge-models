@@ -4,8 +4,8 @@ var express      = require('express');
 var childProcess = require('child_process');
 var fs           = require('fs');
 var bodyParser   = require('body-parser');
-//var ipfilter      = require(__dirname + '/ipfilter.js');
-var ipfilter     = require('ipfilter');
+//var ipfilter     = require('ipfilter');
+var ipfilter     = require(__dirname + '/wc-ipfilter.js');
 var modWriter    = require(__dirname + '/mod-writer.js');
 var app          = express();
 var http         = require('http').Server(app);
@@ -13,8 +13,13 @@ var io           = require('socket.io')(http);
 var nodemailer   = require('nodemailer');
 
 // whitelist my IP address
-var ip_white = ['206.229.236.122', // IMF 'guest' network
-  '127.0.0.1'];  // IMF LAN
+var ip_white = ['127.0.0', // local host
+		'134.113.0',
+		'204.180.229',
+		'205.245.67',
+		'206.229.236',
+		'208.185.200'];  
+
 app.use(ipfilter(ip_white, {
     log: true,
     range: true,
@@ -244,7 +249,6 @@ app.get('/getResults', function(req, res) {
 	res.json(data);
     });
 });
-
 
 http.listen(process.env.PORT || 3000, function(){
     console.log('listening on port 8080');
