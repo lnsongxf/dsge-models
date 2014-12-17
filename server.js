@@ -14,7 +14,8 @@ var nodemailer   = require('nodemailer');
 
 // whitelist my IP address
 var ip_white = ['127.0.0', // local host
-		'134.113.0',
+		'173.79.204', // home
+		'134.113.0', // IMF 
 		'204.180.229',
 		'205.245.67',
 		'206.229.236',
