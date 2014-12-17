@@ -5,7 +5,7 @@ var childProcess = require('child_process');
 var fs           = require('fs');
 var bodyParser   = require('body-parser');
 //var ipfilter     = require('ipfilter');
-var ipfilter     = require(__dirname + '/wc-ipfilter.js');
+//var ipfilter     = require(__dirname + '/wc-ipfilter.js');
 var modWriter    = require(__dirname + '/mod-writer.js');
 var app          = express();
 var http         = require('http').Server(app);
@@ -13,7 +13,7 @@ var io           = require('socket.io')(http);
 var nodemailer   = require('nodemailer');
 
 // whitelist my IP address
-var ip_white = ['127.0.0', // local host
+/*var ip_white = ['127.0.0', // local host
 		'173.79.204', // home
 		'134.113.0', // IMF 
 		'204.180.229',
@@ -26,7 +26,7 @@ app.use(ipfilter(ip_white, {
     range: true,
     mode: 'allow',
     errorMessage: 'IMF staff only, or \'THOU SHALL NOT PASS\''
-}));
+}));*/
 
 app.use(bodyParser.json());
 app.use(express.static(__dirname + '/public'));

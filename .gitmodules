@@ -4,3 +4,6 @@
 [submodule "public/jquery-handsontable"]
 	path = public/jquery-handsontable
 	url = https://github.com/handsontable/jquery-handsontable.git
+[submodule "public/handsontable"]
+	path = public/handsontable
+	url = https://github.com/handsontable/handsontable.git
